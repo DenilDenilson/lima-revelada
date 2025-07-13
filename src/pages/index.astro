@@ -6,6 +6,8 @@ import Layout from '../pages/Layout.astro';
 </Layout>
 
 <script>
+import Layout from "./Layout.astro";
+
 	// @ts-ignore
 	var map = L.map('map').setView([-12.04613, -77.0359], 17);
 	
@@ -15,5 +17,14 @@ import Layout from '../pages/Layout.astro';
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(map);
 
-//https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png
+	// @ts-ignore
+	var paranormalIcon = L.icon({
+			iconUrl: '/Marcadores/paranormal.svg',
+			iconSize: [48, 48],
+			iconAnchor: [24, 24]
+	})
+
+	// @ts-ignore
+	L.marker([-12.057698743958667, -77.03832664886446], {icon: paranormalIcon}).addTo(map);
+
 </script>
