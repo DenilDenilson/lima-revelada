@@ -1,0 +1,65 @@
+---
+import ModalFuentes from './ModalFuentes.astro';
+import ModalHeader from './ModalHeader.astro';
+import ModalHistory from './ModalHistory.astro';
+import ModalImage from './ModalImage.astro';
+
+const { site } = Astro.props;
+
+const { id } = site.data.id;
+
+---
+<div class="modal">
+  
+  <ModalImage siteId={id} />
+  <div class="modal-content">
+    <ModalHeader site={site.data} />
+    <ModalHistory site={site.data} />
+      <!-- TODO: GALERIA -->
+    <ModalFuentes site={site.data} />
+    <footer class="modal-footer">
+      Lima Revelada - Descubre los misterios de nuestra ciudad
+    </footer>
+  </div>
+</div>
+
+<style>
+  .modal {
+    overflow-y: auto;
+    background: #fffefe;
+    width: 80vw;
+    max-width: 1200px;
+    border-radius: 8px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .modal::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  .modal::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .modal::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+
+
+  .modal-content {
+    padding: 24px;
+  }
+
+  .modal-footer {
+    margin-top: 24px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #6b7280;
+    text-align: center;
+  }
+  
+</style>
