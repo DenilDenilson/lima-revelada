@@ -14,15 +14,18 @@
 	"fuentes": [
 		{
 			"title": "Leyendas de la Piedra Horadada",
-			"url": "https://www.leyendasdelapiedra.com"
+			"url": "https://www.leyendasdelapiedra.com",
+			"description": "Un sitio dedicado a las leyendas urbanas de Lima, incluyendo la Piedra Horadada."
 		},
 		{
 			"title": "Investigaciones sobre la Piedra Horadada",
-			"url": "https://www.investigacionespiedra.com"
+			"url": "https://www.investigacionespiedra.com",
+			"description": "Un blog que recopila estudios y testimonios sobre la Piedra Horadada."
 		},
 		{
 			"title": "Testimonios de Visitantes",
-			"url": "https://www.testimoniosvisitantes.com/piedra-horadada"
+			"url": "https://www.testimoniosvisitantes.com/piedra-horadada",
+			"description": "Una colección de relatos de personas que han visitado la Piedra Horadada y compartido sus experiencias."
 		}
 	]
 }
