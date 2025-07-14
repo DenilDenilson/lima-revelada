@@ -1,6 +1,16 @@
+---
+const { site } = Astro.props;
+const { history } = site
+---
+
 <main class="modal-history">
   <h2 class="history-title">La Historia</h2>
-  <p class="history-content">
+  {
+    history.map((paragraph: string) => (
+      <p class="history-content">{paragraph}</p>
+    ))
+  }
+  <!-- <p class="history-content">
     La Casa Matusita, ubicada en el Jr. Unión 390 en el Centro Histórico de Lima, es considerada una de las casas más embrujadas del Perú. Esta casona colonial del siglo XIX ha sido testigo de numerosos eventos paranormales que han marcado la historia de la ciudad.
   </p>
   <p class="history-content">
@@ -11,7 +21,7 @@
   </p>
   <p class="history-content">
     Hoy en día, la Casa Matusita alberga locales comerciales en su planta baja, pero los pisos superiores permanecen deshabitados. Los trabajadores y visitantes ocasionales reportan experiencias inexplicables, manteniendo viva la leyenda de esta misteriosa construcción limeña.</p>
-  </p>
+  </p> -->
 </main>
 
 <style>

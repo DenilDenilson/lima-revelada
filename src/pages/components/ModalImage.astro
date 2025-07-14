@@ -1,10 +1,11 @@
 ---
 import {Image} from 'astro:assets';
-
 import {modalImagesDirectory} from '../../utils/modalImagesDirectory';
+
+const { siteId } = Astro.props as { siteId: keyof typeof modalImagesDirectory };
 ---
 <div class="modal-main-image">
-  <Image src={modalImagesDirectory['paranormal-01']} alt="Paranormal Image" class={""} />
+  <Image src={modalImagesDirectory[siteId]} alt="Paranormal Image" class={""} />
   <!-- TODO: OVERLAY + CLOSE ICON -->
 </div>
 

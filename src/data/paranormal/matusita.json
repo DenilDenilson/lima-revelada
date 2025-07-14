@@ -14,15 +14,18 @@
 	"fuentes": [
 		{
 			"title": "Historia de la Casa Matusita",
-			"url": "https://www.historiadelacasamatusita.com"
+			"url": "https://www.historiadelacasamatusita.com",
+			"description": "Un recorrido por la historia y leyendas de la Casa Matusita."
 		},
 		{
 			"title": "Leyendas Urbanas de Lima",
-			"url": "https://www.leyendasurbanasdelima.com/casa-matusita"
+			"url": "https://www.leyendasurbanasdelima.com/casa-matusita",
+			"description": "Un recorrido por la historia y leyendas de la Casa Matusita."
 		},
 		{
 			"title": "Testimonios de Visitantes",
-			"url": "https://www.testimoniosvisitantes.com/casa-matusita"
+			"url": "https://www.testimoniosvisitantes.com/casa-matusita",
+			"description": "Un recorrido por la historia y leyendas de la Casa Matusita."
 		}
 	]
 }

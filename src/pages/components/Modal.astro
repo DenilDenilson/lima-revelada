@@ -3,15 +3,18 @@ import ModalFuentes from './ModalFuentes.astro';
 import ModalHeader from './ModalHeader.astro';
 import ModalHistory from './ModalHistory.astro';
 import ModalImage from './ModalImage.astro';
+
+const { site } = Astro.props;
+const { id } = site.data;
 ---
 <div class="modal">
   
-  <ModalImage />
+  <ModalImage siteId={id} />
   <div class="modal-content">
-    <ModalHeader />
-    <ModalHistory />
+    <ModalHeader site={site.data} />
+    <ModalHistory site={site.data} />
       <!-- TODO: GALERIA -->
-    <ModalFuentes />
+    <ModalFuentes site={site.data} />
     <footer class="modal-footer">
       Lima Revelada - Descubre los misterios de nuestra ciudad
     </footer>
