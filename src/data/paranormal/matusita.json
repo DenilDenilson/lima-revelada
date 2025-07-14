@@ -1,0 +1,28 @@
+{
+	"id": "paranormal-01",
+	"kind": "paranormal",
+	"title": "Casa Matusita",
+	"description": "La casa más emblemáticas de Lima",
+	"coordinates": [-12.057698743958667, -77.03832664886446],
+	"direction": "Jr. Unión 390, Centro Histórico de Lima",
+	"history": [
+		"La Casa Matusita, ubicada en el Jr. Unión 390 en el Centro Histórico de Lima, es considerada una de las casas más embrujadas del Perú. Esta casona colonial del siglo XIX ha sido testigo de numerosos eventos paranormales que han marcado la historia de la ciudad.",
+		"Según las leyendas urbanas, la casa fue escenario de tragedias familiares, asesinatos y rituales de magia negra. Los vecinos del lugar aseguran haber escuchado lamentos, pasos en los pisos superiores y haber visto figuras espectrales en las ventanas durante las noches.",
+		"En la década de 1960, un programa de televisión ofreció una recompensa a quien pasara una noche completa en la casa. Varios valientes lo intentaron, pero ninguno logró completar el desafío. Algunos salieron corriendo en estado de shock, mientras que otros fueron encontrados en condiciones que prefirieron no revelar públicamente.",
+		"Hoy en día, la Casa Matusita alberga locales comerciales en su planta baja, pero los pisos superiores permanecen deshabitados. Los trabajadores y visitantes ocasionales reportan experiencias inexplicables, manteniendo viva la leyenda de esta misteriosa construcción limeña."
+	],
+	"fuentes": [
+		{
+			"title": "Historia de la Casa Matusita",
+			"url": "https://www.historiadelacasamatusita.com"
+		},
+		{
+			"title": "Leyendas Urbanas de Lima",
+			"url": "https://www.leyendasurbanasdelima.com/casa-matusita"
+		},
+		{
+			"title": "Testimonios de Visitantes",
+			"url": "https://www.testimoniosvisitantes.com/casa-matusita"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "paranormal-02",
+	"kind": "paranormal",
+	"title": "Piedra Horadada",
+	"description": "Una de las formaciones rocosas más enigmáticas de Lima",
+	"coordinates": [-12.050918657199166, -77.02114434378407],
+	"direction": "1019 Jr. Junín",
+	"history": [
+		"La Piedra Horadada, ubicada en el distrito de San Juan de Lurigancho, es una formación rocosa que ha despertado la curiosidad y el misterio entre los habitantes de Lima. Conocida por su forma peculiar, esta piedra ha sido objeto de numerosas leyendas urbanas y teorías sobre su origen.",
+		"Según las creencias locales, la Piedra Horadada es un portal hacia otras dimensiones o un punto de energía especial. Algunos afirman haber experimentado fenómenos extraños al acercarse a ella, como cambios en la temperatura, sensaciones de vértigo o incluso visiones inexplicables.",
+		"En la década de 1980, un grupo de investigadores realizó estudios sobre la piedra, pero los resultados nunca fueron publicados oficialmente. A pesar de esto, la Piedra Horadada sigue siendo un lugar de interés para quienes buscan experiencias paranormales o simplemente desean conocer más sobre las leyendas que rodean a este enigmático monumento natural.",
+		"Hoy en día, la Piedra Horadada es visitada por turistas y curiosos que desean explorar su historia y disfrutar del paisaje que la rodea. Aunque no hay evidencia científica que respalde las teorías sobre su naturaleza paranormal, el aura de misterio que envuelve a esta roca continúa atrayendo a quienes buscan lo desconocido."
+	],
+	"fuentes": [
+		{
+			"title": "Leyendas de la Piedra Horadada",
+			"url": "https://www.leyendasdelapiedra.com"
+		},
+		{
+			"title": "Investigaciones sobre la Piedra Horadada",
+			"url": "https://www.investigacionespiedra.com"
+		},
+		{
+			"title": "Testimonios de Visitantes",
+			"url": "https://www.testimoniosvisitantes.com/piedra-horadada"
+		}
+	]
+}
