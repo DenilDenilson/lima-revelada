@@ -5,9 +5,15 @@ import Layout from '../pages/Layout.astro';
 import Modal from './components/Modal.astro';
 
 const allParanormalSites = await getCollection('paranormalCollection');
+
+const paranormalSitesCoordinates = allParanormalSites.map(site => ({
+  coordinates: site.data.coordinates,
+  id: site.data.id
+}));
 ---
 <Layout>
 	<div id="map"></div>
+	<div id="sitesdata" data-sites={JSON.stringify(paranormalSitesCoordinates)}></div>
 	<div class="modal-container hidden">
 		<div class="container">
 			<Modal site={allParanormalSites[0]} />
@@ -16,9 +22,10 @@ const allParanormalSites = await getCollection('paranormalCollection');
 </Layout>
 
 <script>
+	const modalContainer = document.querySelector('.modal-container');
+	
 	// @ts-ignore
 	var map = L.map('map').setView([-12.04613, -77.0359], 17);
-	const modalContainer = document.querySelector('.modal-container');
 	
 	// @ts-ignore
 	L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png', {
@@ -33,18 +40,34 @@ const allParanormalSites = await getCollection('paranormalCollection');
 			iconAnchor: [24, 24]
 	})
 
+	const sitesDataDOM = document.getElementById('sitesdata');
+	const sitesData = sitesDataDOM?.dataset.sites ? JSON.parse(sitesDataDOM.dataset.sites) : [];
+	console.log(sitesData);
+
+	sitesData.forEach((site: any) => {
+		// @ts-ignore
+		L.marker(site.coordinates, {icon: paranormalIcon})
+		 .addTo(map)
+		});
+
 	// @ts-ignore
-	L.marker([-12.057698743958667, -77.03832664886446], {icon: paranormalIcon})
-	 .addTo(map)
-	 .on('click', function() {
-		modalContainer?.classList.remove('hidden');
-	});
+	// L.marker([-12.057698743958667, -77.03832664886446], {icon: paranormalIcon})
+	//  .addTo(map)
+	//  .on('click', function() {
+	// 	modalContainer?.classList.remove('hidden');
+	// });
 
 	modalContainer?.addEventListener('click', (e) => {
 		if ((e.target as Element).className === 'container') {
 			modalContainer.classList.add('hidden');
 		}
 	});
+
+	// modalContainer?.addEventListener('click', (e) => {
+	// 	if (e.target && e.target.className === 'container') {
+	// 		modalContainer.classList.add('hidden');
+	// 	}
+	// });
 
 
 
