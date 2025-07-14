@@ -7,6 +7,10 @@
 	font-family: 'Inter', sans-serif;
 }
 
+body {
+	overflow: hidden;
+}
+
 #map {
-	min-height: 100vh;
+	height: 100vh;
 }

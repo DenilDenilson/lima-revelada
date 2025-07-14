@@ -1,15 +1,21 @@
 ---
 import Layout from '../pages/Layout.astro';
+import Modal from './components/Modal.astro';
 ---
 <Layout>
 	<div id="map"></div>
+	<div class="modal-container hidden">
+		<div class="container">
+			<Modal />
+		</div>
+	</div>
 </Layout>
 
 <script>
-import Layout from "./Layout.astro";
-
 	// @ts-ignore
 	var map = L.map('map').setView([-12.04613, -77.0359], 17);
+	const modalContainer = document.querySelector('.modal-container');
+	const container = document.querySelector('.container');
 	
 	// @ts-ignore
 	L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png', {
@@ -25,7 +31,45 @@ import Layout from "./Layout.astro";
 	})
 
 	// @ts-ignore
-	L.marker([-12.057698743958667, -77.03832664886446], {icon: paranormalIcon}).addTo(map).bindPopup("La casa matusita").on('click', function() {
-		alert("Popup clicked!");
+	L.marker([-12.057698743958667, -77.03832664886446], {icon: paranormalIcon})
+	 .addTo(map)
+	 .on('click', function() {
+		modalContainer?.classList.remove('hidden');
 	});
+
+	modalContainer?.addEventListener('click', (e) => {
+		if ((e.target as Element).className === 'container') {
+			modalContainer.classList.add('hidden');
+		}
+	});
+
+
+
 </script>
+
+<style>
+	#map {
+		position: relative;
+		z-index: 0;
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	.modal-container {
+    background: #00000050;
+    min-height: 100vh;
+    position: absolute;
+		z-index: 50;
+		inset: 0;
+    place-content: center;
+	}
+
+	.container {
+    backdrop-filter: blur(2px);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+</style>
