@@ -2,30 +2,32 @@
 	"id": "paranormal-02",
 	"kind": "paranormal",
 	"title": "Piedra Horadada",
-	"description": "Una de las formaciones rocosas más enigmáticas de Lima",
+	"description": "La piedra por donde escapó el diablo",
 	"coordinates": [-12.050918657199166, -77.02114434378407],
-	"direction": "1019 Jr. Junín",
+	"direction": "Cruce de Jr Junín con Jr Cangallo",
 	"history": [
-		"La Piedra Horadada, ubicada en el distrito de San Juan de Lurigancho, es una formación rocosa que ha despertado la curiosidad y el misterio entre los habitantes de Lima. Conocida por su forma peculiar, esta piedra ha sido objeto de numerosas leyendas urbanas y teorías sobre su origen.",
-		"Según las creencias locales, la Piedra Horadada es un portal hacia otras dimensiones o un punto de energía especial. Algunos afirman haber experimentado fenómenos extraños al acercarse a ella, como cambios en la temperatura, sensaciones de vértigo o incluso visiones inexplicables.",
-		"En la década de 1980, un grupo de investigadores realizó estudios sobre la piedra, pero los resultados nunca fueron publicados oficialmente. A pesar de esto, la Piedra Horadada sigue siendo un lugar de interés para quienes buscan experiencias paranormales o simplemente desean conocer más sobre las leyendas que rodean a este enigmático monumento natural.",
-		"Hoy en día, la Piedra Horadada es visitada por turistas y curiosos que desean explorar su historia y disfrutar del paisaje que la rodea. Aunque no hay evidencia científica que respalde las teorías sobre su naturaleza paranormal, el aura de misterio que envuelve a esta roca continúa atrayendo a quienes buscan lo desconocido."
+		"En Lima, esta es de las pocas formaciones naturales que tienen una historia de origen paranormal. Ubicada en Barrios Altos, la Piedra Horadada es una roca con un agujero en el centro que, según la leyenda, fue el sitio por donde escapó el diablo al encontrarse cara a cara con la procesión del Señor de los Milagros.",
+		"La piedra, situada en plena calle, a pocos metros de la Quinta Heeren, cuenta incluso con un azulejo que relata su historia.",
+		"Se dice que, paseando por los barrios de Lima, el diablo se encontró de manos a boca con la procesión del Señor de los Milagros. Ante la presencia del santo, el diablo retrocedió asustado, tropezandose con una gran piedra que le impedía el paso",
+		"En su desesperación por escapar, el diablo se lanzó contra ella, dejando un agujero en ella y llegando a la otra calle, sintiendose fuera de peligro, lanzó un suspiro tan fuerte —dicen— que se escuchó en todo Lima.",
+		"El azulejo indica que esta leyenda está en las Tradiciones Peruanas de Ricardo Palma; sin embargo, no hay evidencia de que haya sido publicada en sus obras. Aún así, la historia ha perdurado a lo largo del tiempo y se ha convertido en un elemento icónico de la cultura limeña.",
+		"Actualmente, la Piedra Horadada conserva su misterio, pero también refleja el descuido de las autoridades: está cubierta de grafitis, ignorada por los transeúntes y casi invisible en medio del ruido urbano. Sin embargo, quienes la conocen siguen viéndola como una de esas puertas raras que Lima deja abiertas para quien sepa mirar.."
 	],
 	"fuentes": [
 		{
-			"title": "Leyendas de la Piedra Horadada",
-			"url": "https://www.leyendasdelapiedra.com",
-			"description": "Un sitio dedicado a las leyendas urbanas de Lima, incluyendo la Piedra Horadada."
+			"title": "La “Piedra del Diablo” en Barrios Altos: una marca del ángel caído que no pudo enfrentar al Señor de los Milagros",
+			"url": "https://www.infobae.com/america/peru/2022/09/09/la-piedra-del-diablo-en-barrios-altos-una-marca-del-angel-caido-que-no-pudo-enfrentar-al-senor-de-los-milagros/",
+			"description": "Historia y leyenda de la peña horadada."
 		},
 		{
-			"title": "Investigaciones sobre la Piedra Horadada",
-			"url": "https://www.investigacionespiedra.com",
-			"description": "Un blog que recopila estudios y testimonios sobre la Piedra Horadada."
+			"title": "La Peña o Piedra Horadada | Un misterio en plena calle limeña.",
+			"url": "https://www.youtube.com/watch?v=64i9paskE_M",
+			"description": "Una explicación del origen de la peña horadada."
 		},
 		{
-			"title": "Testimonios de Visitantes",
-			"url": "https://www.testimoniosvisitantes.com/piedra-horadada",
-			"description": "Una colección de relatos de personas que han visitado la Piedra Horadada y compartido sus experiencias."
+			"title": "Peña Horadad por Radio Exitosa",
+			"url": "https://www.tiktok.com/@exitosanoticias/video/7259912377649384709",
+			"description": "La historia de la Piedra Horadada."
 		}
 	]
 }
