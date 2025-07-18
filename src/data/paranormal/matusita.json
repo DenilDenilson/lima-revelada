@@ -4,28 +4,34 @@
 	"title": "Casa Matusita",
 	"description": "La casa más emblemáticas de Lima",
 	"coordinates": [-12.057698743958667, -77.03832664886446],
-	"direction": "Jr. Unión 390, Centro Histórico de Lima",
+	"direction": "Cruce de la Av. Garcilaso de la Vega con Av. España",
 	"history": [
-		"La Casa Matusita, ubicada en el Jr. Unión 390 en el Centro Histórico de Lima, es considerada una de las casas más embrujadas del Perú. Esta casona colonial del siglo XIX ha sido testigo de numerosos eventos paranormales que han marcado la historia de la ciudad.",
-		"Según las leyendas urbanas, la casa fue escenario de tragedias familiares, asesinatos y rituales de magia negra. Los vecinos del lugar aseguran haber escuchado lamentos, pasos en los pisos superiores y haber visto figuras espectrales en las ventanas durante las noches.",
-		"En la década de 1960, un programa de televisión ofreció una recompensa a quien pasara una noche completa en la casa. Varios valientes lo intentaron, pero ninguno logró completar el desafío. Algunos salieron corriendo en estado de shock, mientras que otros fueron encontrados en condiciones que prefirieron no revelar públicamente.",
-		"Hoy en día, la Casa Matusita alberga locales comerciales en su planta baja, pero los pisos superiores permanecen deshabitados. Los trabajadores y visitantes ocasionales reportan experiencias inexplicables, manteniendo viva la leyenda de esta misteriosa construcción limeña."
+		"La Casa Matusita es protagonista de una de las leyendas más conocidas de Lima. La escuché por primera vez cuando era niño, en el colegio. En ese tiempo no era tan fácil ver una foto del lugar y me imaginaba una casa tétrica, vieja y aislada de la ciudad.",
+		"Grande fue mi sorpresa cuando, muchos años después, —ya con un renovado interés por Lima— descubrí que la Casa Matusita estaba ubicada en pleno corazón de la ciudad, frente al bullisioso Centro Cívico. Nada tétrica, nada aislada. Una fachada común que pasa desapercibida para quien no conoce su historia.",
+		"Según las leyendas urbanas, la casa fue escenario de tragedias familiares, asesinatos y rituales de magia negra. Vecinos del lugar aseguran haber escuchado lamentos, pasos en los pisos superiores, y haber visto figuras espectrales en las ventanas durante la noche.",
+		"En los años 60, un programa de televisión ofreció una recompensa a quien pasara una noche completa en su interior. Varios lo intentaron, pero nadie logró completar el reto. Algunos salieron corriendo en estado de shock, y otros fueron encontrados en condiciones que jamás llegaron a explicar del todo.",
+		"Muchas de estas historias han sido desmentidas y hay quienes consideran que la casa no merece su propia leyenda. Pero lo cierto es que La Casa Matusita ya forma parte del folclore limeño. Y también es cierto que, hasta hoy, su segundo piso permanece deshabitado..."
 	],
 	"fuentes": [
 		{
-			"title": "Historia de la Casa Matusita",
-			"url": "https://www.historiadelacasamatusita.com",
+			"title": "El origen de la leyenda de la Casa Matusita y qué tan real es",
+			"url": "https://www.infobae.com/america/peru/2022/07/04/el-origen-de-la-leyenda-de-la-casa-matusita-y-que-tan-real-es/",
 			"description": "Un recorrido por la historia y leyendas de la Casa Matusita."
 		},
 		{
-			"title": "Leyendas Urbanas de Lima",
-			"url": "https://www.leyendasurbanasdelima.com/casa-matusita",
-			"description": "Un recorrido por la historia y leyendas de la Casa Matusita."
+			"title": "La verdadera historia de la Casa Matusita",
+			"url": "https://www.tiktok.com/@entubarrio/video/7223166805932641542?q=la%20casa%20matusita%20entubarrio&t=1752815232245",
+			"description": "Desmintiendo las leyendas más comunes de la Casa Matusita."
 		},
 		{
-			"title": "Testimonios de Visitantes",
-			"url": "https://www.testimoniosvisitantes.com/casa-matusita",
-			"description": "Un recorrido por la historia y leyendas de la Casa Matusita."
+			"title": "Los alalacos entran a la Casa Matusita",
+			"url": "https://www.tiktok.com/@losalalacosoficial/video/7497958343445712183?q=chicos%20casa%20matusita&t=1752816364852",
+			"description": "Lo destacable de este video es la reacción de la gente ."
+		},
+		{
+			"title": "La leyenda de la Casa Matusita",
+			"url": "https://youtu.be/r2gu6qMlqz0",
+			"description": "Video que narra la leyenda de la Casa Matusita."
 		}
 	]
 }
