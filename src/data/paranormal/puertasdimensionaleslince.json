@@ -1,0 +1,31 @@
+{
+	"id": "paranormal-04",
+	"kind": "paranormal",
+	"title": "Puertas Dimensionales de Lince",
+	"description": "Único reporte de puertas dimensionales en una zona urbana del mundo",
+	"coordinates": [-12.084572699334217, -77.04200609889018],
+	"direction": "Av Canevaro entre la cuadra 7 y 8",
+	"history": [
+		"Uno de los fenómenos paranormales más singulares y comentados de Lima son las llamadas puertas dimensionales de Lince. Reciben este nombre por los múltiples testimonios de personas que, al caminar por la avenida Canevaro, aseguran haber sido transportadas a un lugar completamente distinto.",
+		"Todo comenzó con una llamada al programa Viaje a otra dimensión, conducido por Anthony Choy. Una mujer relató que, mientras caminaba con su hija, el ambiente de pronto se volvió silencioso y extraño. Frente a ellas ya no estaba la avenida limeña, sino un paisaje desértico, con el cielo teñido de lila y enormes edificios metálicos.",
+		"A este testimonio se sumaron muchos otros. Una señora describió haber sido llevada, en circunstancias similares, a un entorno con estructuras brillantes y metálicas, y un cielo blanco que imponía un silencio total. Otro caso es el de un taxista, quien también cruzando por Canevaro sintió que todo a su alrededor había cambiado y vio construcciones que no reconocía: altas, plateadas y extrañas.",
+		"Así, relato tras relato, se fue tejiendo la leyenda. Donde la similitud de los reportes ayuda a la congruencia del fenómeno. Lo cierto es que no hay otro lugar urbano en el mundo con tantos reportes similares. Hoy, las puertas dimensionales de Lince son parte de la cultura popular limeña, y han inspirado videos virales en TikTok y YouTube que mantienen viva la intriga."
+	],
+	"fuentes": [
+		{
+			"title": "Playlist de YouTube de Anthony Choy sobre los Portales Dimensionales de Lince",
+			"url": "https://www.youtube.com/watch?v=SeDCVWZIegE&list=PLnRgd9mD2OsoeZmUXt8zL6llytnvTDcln&index=1",
+			"description": "Serie de videos en YouTube hablando sobre y con los testigos de las puertas dimensionales de Lince."
+		},
+		{
+			"title": "Portales Dimensionales en Lince, Av Canevaro.",
+			"url": "https://www.tiktok.com/@papu_anormal0/video/7374292326425857285",
+			"description": "Caminata por la Av Canevaro con algunas de las historias más famosas."
+		},
+		{
+			"title": "Portales dimensionales: ¿qué son y por qué se dice que hay uno en Lince?",
+			"url": "https://larepublica.pe/datos-lr/respuestas/2022/10/24/portales-dimensionales-en-lince-avenida-canevaro-puertas-dimensionales-cuadra-8-canevaro-portal-en-lima-atmp",
+			"description": "Reporte de La República "
+		}
+	]
+}
