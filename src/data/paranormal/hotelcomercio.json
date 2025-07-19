@@ -1,0 +1,31 @@
+{
+	"id": "paranormal-03",
+	"kind": "paranormal",
+	"title": "Hotel El Comercio",
+	"description": "Lugar del primer más grande crimen de Lima",
+	"coordinates": [-12.044768585189034, -77.02893728489049],
+	"direction": "Frente a la Casa de la Literatura Peruana",
+	"history": [
+		"Genaro Ortiz mató a martillazos a su compatriota Marcelino Domínguez, lo descuartizó, colocó las partes en dos maletas y escapó. Así se cometió uno de los crímenes más sangrientos de la historia de Lima",
+		"Todo sucedió en la habitación 89 del Hotel El Comercio. Ambos eran españoles que regresaban de Bolivia con un botín de joyas robadas, y fue precisamente una discusión por la repartición lo que desató la tragedia.",
+		"La brutalidad del crimen conmocionó a la sociedad limeña de la época. El impacto fue tal que el hotel se vio obligado a cambiar la numeración de las habitaciones, ya que nadie quería hospedarse en la fatídica 89.",
+		"Las visitas al hotel cayeron en picada y, poco tiempo después, el Hotel El Comercio cerró sus puertas. El incidente fue tal que Clemente Palma declaró: \"Por fín Lima tuvo un crimen que es común en París y Londres\"."
+	],
+	"fuentes": [
+		{
+			"title": "El trágico asesinato de un español en el Hotel El Comercio, hoy tercer piso del famoso Bar Cordano",
+			"url": "https://www.infobae.com/america/peru/2022/10/21/el-tragico-asesinato-de-un-espanol-en-el-hotel-el-comercio-hoy-tercer-piso-del-famoso-bar-cordano/",
+			"description": "Historia del asesinato en el hotel El Comercio."
+		},
+		{
+			"title": "El descuartizador del Hotel Comercio.",
+			"url": "https://www.tiktok.com/@elcomerciope/video/7295746113099877637?q=Hotel%20El%20Comercio&t=1752905334518",
+			"description": "Cuenta la historia."
+		},
+		{
+			"title": "Misterios de la Noche Limeña",
+			"url": "https://youtu.be/1hvddXtUZUs?t=1739",
+			"description": "David Pino contándo la historia del Hotel El Comercio al doctor Choy"
+		}
+	]
+}
