@@ -14,23 +14,21 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 👻 Paranormales
 
-- [ ] Hotel El Comercio
 - [ ] Casa Encarnación
 - [ ] Procesación de Animas de San Agustín
-- [ ] La Quinta Heren
-- [ ] Tragedia en el Estadio Nacional
-- [ ] Puertas Dimensionales de Lince
-- [ ] El Espectro Asesino del Puente Benavides
 - [ ] Mujer Vampiro de Barranco
 - [ ] Puente de suicidas en Miraflores
 - [ ] Mujer Lobo de Chorrillos
+- [ ] El Espectro Asesino del Puente Benavides
+- [ ] Tragedia en el Estadio Nacional
+- [ ] La Quinta Heren
 
 ### 🏢 Arquitectura y Espacios Singulares
 
 - [ ] Casa donde capturaron a Abimael Guzmán
 - [ ] Monumento en Boulevard por crimen de Tarata
 - [ ] La Iglesia más alta de Lima
-- [ ] La réplica del palacio de gobierno
+- [ ] La réplica del palacio de gobierno, casa Suarez
 - [ ] Casa de Ricardo Palma en Miraflores
 - [ ] Bar La Catedral de Mario Vargas Llosa
 - [ ] Dónde MRTA secuestró al embajador japonés
@@ -43,7 +41,7 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 - [ ] Casa Fernandini
 - [ ] Donde se sentó Speed en su visita a Lima
 - [ ] Base de la FAP que parece la casa de Hansel y Gretel
-- [ ]
+- [ ] Parque Hernán Velarde, un viaje al pasado
 
 ### 📸 Instagrameables
 
@@ -72,6 +70,7 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 - [ ] Cúpula en la casa de la gastronomía
 - [ ] Cara de León de la casa de la gastronomía
 - [ ] Cristo del Pacífico
+- [ ] Cruz de madera sobre la ejecución de un peruano por 5
 
 ## 💡 Ideas futuras
 
