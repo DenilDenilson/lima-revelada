@@ -6,6 +6,8 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ## 🔧 Funcionalidades por implementar
 
+- [ ] Diseñar modal para Arquitectura y Espacios Singulares
+
 ## 🐞 Bugs conocidos
 
 ## 📦 Mejora de contenido
@@ -14,7 +16,6 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 👻 Paranormales
 
-- [ ] Casa Encarnación
 - [ ] Procesación de Animas de San Agustín
 - [ ] Mujer Vampiro de Barranco
 - [ ] Puente de suicidas en Miraflores
@@ -25,23 +26,23 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 🏢 Arquitectura y Espacios Singulares
 
-- [ ] Casa donde capturaron a Abimael Guzmán
-- [ ] Monumento en Boulevard por crimen de Tarata
-- [ ] La Iglesia más alta de Lima
-- [ ] La réplica del palacio de gobierno, casa Suarez
-- [ ] Casa de Ricardo Palma en Miraflores
+- [ ] Balcón más largo del Perú (https://vm.tiktok.com/ZMSGDtLBv/)
+- [ ] Casa Fernandini - casa lujosa con 1er asensor del peru
 - [ ] Bar La Catedral de Mario Vargas Llosa
+- [ ] La réplica del palacio de gobierno, casa Suarez
+- [ ] Parque Hernán Velarde, un viaje al pasado
+- [ ] Espacio silencioso en plena av Abancay
+- [ ] La iglesia más pequeña del mundo
+- [ ] La Iglesia más alta de Lima
+- [ ] Base de la FAP que parece la casa de Hansel y Gretel
+- [ ] Casa donde capturaron a Abimael Guzmán
 - [ ] Dónde MRTA secuestró al embajador japonés
+- [ ] Monumento en Boulevard por crimen de Tarata
+- [ ] Casa de Ricardo Palma en Miraflores
 - [ ] Casa y placa de Hipólito Unanue
 - [ ] Casa y placa donde nació y creció Ricardo Palma
 - [ ] El castillo de chorrillos
-- [ ] La iglesia más pequeña del mundo
-- [ ] Balcón más largo del Perú (https://vm.tiktok.com/ZMSGDtLBv/)
 - [ ] Balcón abierto más largo de latam (https://vm.tiktok.com/ZMSGDGMHM/)
-- [ ] Casa Fernandini
-- [ ] Donde se sentó Speed en su visita a Lima
-- [ ] Base de la FAP que parece la casa de Hansel y Gretel
-- [ ] Parque Hernán Velarde, un viaje al pasado
 
 ### 📸 Instagrameables
 
