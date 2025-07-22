@@ -73,6 +73,10 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 - [ ] Monumento a Petit Thouars, defensor de Lima
 - [ ] Cristo del Pacífico
 
+## 📸 Ir a tomar foto personalmente
+
+- [ ] Balcón más largo del Perú
+
 ## 💡 Ideas futuras
 
 - Un juego para buscar los easter eggs, se da una área para buscar y la foto, Pero no se dice dónde o como, ideal para aquellos caletas como... https://vm.tiktok.com/ZMSG6P8My/
