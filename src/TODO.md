@@ -46,32 +46,32 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 📸 Instagrameables
 
-- [ ] Escultura del parque del amor
 - [ ] El arco chino
 - [ ] Leones fu
 - [ ] Arco de la amistad de Lima
-- [ ] Parque de la reserva
+- [ ] Monumento de Campo de Marte
 - [ ] Cristo del Pacífico
 - [ ] Bajada de Baños
+- [ ] Parque de la reserva / Circuito Mágico del Agua
 - [ ] Escalera de colores en Barranco
+- [ ] Escultura del parque del amor
 - [ ] Faro de Miraflores
-- [ ] Monumento de Campo de Marte
+- [ ] Cara de León de la casa de la gastronomía
 
 ### 🔍 Curiosidades Ocultas
 
+- [ ] Cúpula acústica (https://vm.tiktok.com/ZMSGD4soY/)
+- [ ] 1era escalera electrica del Perú en Jirón de la Unión
+- [ ] Cruz de madera sobre la ejecución de un peruano por 5
+- [ ] Nicho en la casa de la gastronomía
+- [ ] Cuarto de Victor Humareda, Hotel Lima en Gamarra
 - [ ] Puente de los suspiros
 - [ ] Lugar donde dio misa Juan Pablo II
 - [ ] Árbol sembrado por don José de San Martín, el Ombu
 - [ ] Santísima Cruz del Viajero
-- [ ] Cuarto de Victor Humareda, Hotel Lima en Gamarra
 - [ ] Barrio Hundido de Lima - Surquillo
 - [ ] Monumento a Petit Thouars, defensor de Lima
-- [ ] 1era escalera electrica del Perú en Jirón de la Unión
-- [ ] Cúpula acústica (https://vm.tiktok.com/ZMSGD4soY/)
-- [ ] Cúpula en la casa de la gastronomía
-- [ ] Cara de León de la casa de la gastronomía
 - [ ] Cristo del Pacífico
-- [ ] Cruz de madera sobre la ejecución de un peruano por 5
 
 ## 💡 Ideas futuras
 
