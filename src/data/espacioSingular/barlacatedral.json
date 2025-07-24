@@ -1,0 +1,14 @@
+{
+	"id": "espacioSingular-02",
+	"kind": "espacio singular",
+	"title": "Bar La Catedral",
+	"singularidad": "El bar que inspiró \"Conversaciones en La Catedral\" de Mario Vargas Llosa",
+	"coordinates": [-12.041594722509643, -77.04295394664477],
+	"direction": "Av. Alfonso Ugarte 206, entre Sancho de Rivera y Jr. Huancavelica",
+	"fuentes": [
+		{
+			"title": "Lleno de basura y en venta: así luce el bar que inspiró “Conversación en La Catedral” de Mario Vargas Llosa",
+			"url": "https://www.infobae.com/america/peru/2022/10/16/lleno-de-basura-y-en-venta-asi-luce-el-bar-que-inspiro-conversacion-en-la-catedral-de-vargas-llosa/"
+		}
+	]
+}
