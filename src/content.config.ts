@@ -21,6 +21,56 @@ const paranormalCollection = defineCollection({
 	}),
 });
 
+const espacioSingularCollection = defineCollection({
+	loader: glob({ pattern: '**/*.json', base: './src/data/espacioSingular' }),
+	schema: z.object({
+		id: z.string(),
+		kind: z.string(),
+		title: z.string(),
+		singularidad: z.string(),
+		coordinates: z.array(z.number()).length(2),
+		direction: z.string(),
+		fuentes: z.array(
+			z.object({
+				title: z.string(),
+				url: z.string().url(),
+			})
+		),
+	}),
+});
+
+const curiosidadOcultaCollection = defineCollection({
+	loader: glob({ pattern: '**/*.json', base: './src/data/espacioSingular' }),
+	schema: z.object({
+		id: z.string(),
+		kind: z.string(),
+		title: z.string(),
+		singularidad: z.string(),
+		coordinates: z.array(z.number()).length(2),
+		direction: z.string(),
+		fuentes: z.array(
+			z.object({
+				title: z.string(),
+				url: z.string().url(),
+			})
+		),
+	}),
+});
+
+const instagrameableCollection = defineCollection({
+	loader: glob({ pattern: '**/*.json', base: './src/data/instagrameable' }),
+	schema: z.object({
+		id: z.string(),
+		kind: z.string(),
+		title: z.string(),
+		coordinates: z.array(z.number()).length(2),
+		direction: z.string(),
+	}),
+});
+
 export const collections = {
 	paranormalCollection,
+	espacioSingularCollection,
+	curiosidadOcultaCollection,
+	instagrameableCollection,
 };
