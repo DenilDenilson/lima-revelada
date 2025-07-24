@@ -40,7 +40,7 @@ const espacioSingularCollection = defineCollection({
 });
 
 const curiosidadOcultaCollection = defineCollection({
-	loader: glob({ pattern: '**/*.json', base: './src/data/espacioSingular' }),
+	loader: glob({ pattern: '**/*.json', base: './src/data/curiosidadOculta' }),
 	schema: z.object({
 		id: z.string(),
 		kind: z.string(),

@@ -4,16 +4,26 @@ import { getCollection } from 'astro:content';
 import Layout from '../pages/Layout.astro';
 import Modal from '../components/Modal.astro';
 
-const allParanormalSites = await getCollection('paranormalCollection');
+import {getCoordinatesAndID} from '../utils/getCoordinatesAndID';
 
-const paranormalSitesCoordinates = allParanormalSites.map(site => ({
-  coordinates: site.data.coordinates,
-  id: site.data.id
-}));
+const allParanormalSites = await getCollection('paranormalCollection');
+const allEspacioSingularSites = await getCollection('espacioSingularCollection');
+const allCuriosidadOcultaSites = await getCollection('curiosidadOcultaCollection');
+const allInstagrameableSites = await getCollection('instagrameableCollection');
+
+const paranormalSitesCoordinates = allParanormalSites.map(site => 
+	getCoordinatesAndID(site)
+);
+const espacioSingularSitesCoordinates = allEspacioSingularSites.map(site => getCoordinatesAndID(site))
+const curiosidadOcultaSitesCoordinates = allCuriosidadOcultaSites.map(site => getCoordinatesAndID(site));
+const instagrameableSitesCoordinates = allInstagrameableSites.map(site => getCoordinatesAndID(site));
 ---
 <Layout>
 	<div id="map"></div>
 	<div id="sitesdata" data-sites={JSON.stringify(paranormalSitesCoordinates)}></div>
+	<div id="sitesSingularSpaceData" data-sites={JSON.stringify(espacioSingularSitesCoordinates)}></div>
+	<div id="sitesCuriosidadOcultaData" data-sites={JSON.stringify(curiosidadOcultaSitesCoordinates)}></div>
+	<div id="sitesInstagrameableData" data-sites={JSON.stringify(instagrameableSitesCoordinates)}></div>
 	{
 		allParanormalSites.map(site => (
 		<div class="modal-container hidden" id={`modal-${site.data.id}`}>
@@ -35,16 +45,47 @@ const paranormalSitesCoordinates = allParanormalSites.map(site => ({
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(map);
 
+	/* Creamos los íconos */
 	// @ts-ignore
 	var paranormalIcon = L.icon({
-			iconUrl: '/Marcadores/paranormal.svg',
-			iconSize: [48, 48],
-			iconAnchor: [24, 24]
+		iconUrl: '/Marcadores/paranormal.svg',
+		iconSize: [48, 48],
+		iconAnchor: [24, 24]
 	})
 
+	// @ts-ignore
+	var espacioSingularIcon = L.icon({
+		iconUrl: '/Marcadores/espacioSingular.svg',
+		iconSize: [48, 48],
+		iconAnchor: [24, 24]
+	})
+
+	// @ts-ignore
+	var curiosidadOcultaIcon = L.icon({
+		iconUrl: '/Marcadores/curiosidadOculta.svg',
+		iconSize: [48, 48],
+		iconAnchor: [24, 24]
+	})
+
+	// @ts-ignore
+	var instagrameableIcon = L.icon({
+		iconUrl: '/Marcadores/instagrameable.svg',
+		iconSize: [48, 48],
+		iconAnchor: [24, 24]
+	})
+
+	// Recuperamos los datos de los sitios del sus elementos DOM
 	const sitesDataDOM = document.getElementById('sitesdata');
-	const sitesData = sitesDataDOM?.dataset.sites ? JSON.parse(sitesDataDOM.dataset.sites) : [];
-	console.log(sitesData);
+	const espacioSingularDataDOM = document.getElementById('sitesSingularSpaceData');
+	const curiosidadOcultaDataDOM = document.getElementById('sitesCuriosidadOcultaData');
+	const instagrameableDataDOM = document.getElementById('sitesInstagrameableData');
+
+	// Si existe el elemento con los datos de los sitios, parseamos los datos
+	const sitesData = JSON.parse(sitesDataDOM?.dataset.sites ?? '[]');
+	const curiosidadOcultaData = JSON.parse(curiosidadOcultaDataDOM?.dataset.sites ?? '[]');
+	const instagrameableData = JSON.parse(instagrameableDataDOM?.dataset.sites ?? '[]');
+	const espacioSingularData = JSON.parse(espacioSingularDataDOM?.dataset.sites ?? '[]');
+
 
 	sitesData.forEach((site: any) => {
 		
@@ -60,14 +101,56 @@ const paranormalSitesCoordinates = allParanormalSites.map(site => ({
 			})
 		});
 
-		document.querySelectorAll('.modal-container').forEach((modal) => {
-			modal.addEventListener('click', (e) => {
-				// Cierra solo si se hace click fuera del contenido
-				if ((e.target as Element).className === 'container') {
-					modal.classList.add('hidden');
-				}
-			});
+	espacioSingularData.forEach((site: any) => {
+
+		// @ts-ignore
+		const marker = L.marker(site.coordinates, {icon: espacioSingularIcon})
+		 .addTo(map)
+
+		// marker.on('click', () => {
+		// 		const modal = document.getElementById(`modal-${site.id}`);
+		// 		if (modal) {
+		// 			modal.classList.remove('hidden');
+		// 		}
+		// 	})
+	})
+
+	curiosidadOcultaData.forEach((site: any) => {
+
+		// @ts-ignore
+		const marker = L.marker(site.coordinates, {icon: curiosidadOcultaIcon})
+		 .addTo(map)
+
+		// marker.on('click', () => {
+		// 		const modal = document.getElementById(`modal-${site.id}`);
+		// 		if (modal) {
+		// 			modal.classList.remove('hidden');
+		// 		}
+		// 	})
+	})
+
+	instagrameableData.forEach((site: any) => {
+
+		// @ts-ignore
+		const marker = L.marker(site.coordinates, {icon: instagrameableIcon})
+		 .addTo(map)
+
+		// marker.on('click', () => {
+		// 		const modal = document.getElementById(`modal-${site.id}`);
+		// 		if (modal) {
+		// 			modal.classList.remove('hidden');
+		// 		}
+		// 	})
+	})
+
+	document.querySelectorAll('.modal-container').forEach((modal) => {
+		modal.addEventListener('click', (e) => {
+			// Cierra solo si se hace click fuera del contenido
+			if ((e.target as Element).className === 'container') {
+				modal.classList.add('hidden');
+			}
 		});
+	});
 
 </script>
 
