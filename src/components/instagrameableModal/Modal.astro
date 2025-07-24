@@ -1,0 +1,161 @@
+---
+import { Image } from "astro:assets";
+import ArcoChino from "../../assets/OptimizedImages/instagrameables/ig-01-ArcoChino.webp"
+import Layout from "../../pages/Layout.astro";
+import {modalImagesDirectory} from '../../utils/modalImagesDirectory';
+
+const { site } = Astro.props;
+const { id } = site.data as { id: keyof typeof modalImagesDirectory };
+---
+<!-- <Layout> -->
+  <!-- <div class="modal-container"> -->
+    <!-- <div class="container"> -->
+      <div class="modal">
+        <div class="modal-main-image">
+          <Image src={modalImagesDirectory[id]} alt="Instagrameable Imagen" class={""} />
+          <!-- TODO: OVERLAY + CLOSE ICON -->
+          <div class="modal-content">
+            <hgroup class="modal-content-header">
+              <span class="modal-kind instagrameable">{site.data.kind}</span>
+              <h1 class="modal-title">{site.data.title}</h1>
+              <p class="modal-direction">
+                <svg width="16px" height="16px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><defs><style>.cls-1{fill:none;stroke:#cccccc;stroke-miterlimit:10;stroke-width:1.91px;}</style></defs><path class="cls-1" d="M19.64,9.14C19.64,15.82,12,22.5,12,22.5S4.36,15.82,4.36,9.14a7.64,7.64,0,0,1,15.28,0Z"></path><circle class="cls-1" cx="12" cy="9.14" r="2.86"></circle></g></svg>
+                {site.data.direction}
+              </p>
+            </hgroup>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </Layout> -->
+
+
+<style>
+.modal-container {
+    background: red;
+    min-height: 100vh;
+    position: absolute;
+		z-index: 50;
+		inset: 0;
+    place-content: center;
+	}
+
+	.container {
+    background-color: black;
+    backdrop-filter: blur(2px);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+
+  .modal {
+    background: #fefefe;
+    width: 80vw;
+    max-width: 640px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .modal-main-image {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+  }
+
+  .modal-main-image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+/* MODAL FOOTER */
+
+  .modal-footer {
+    margin-top: 24px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #6b7280;
+    text-align: center;
+  }
+
+  /* MODAL CONTENT */
+  .modal-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    inset: auto 0% 0% 0%;
+    padding: 32px 24px 16px 24px;
+    z-index: 100;
+  }
+
+  .modal-content::before {
+    content: "";
+    position: absolute;
+    inset: 0% 0% 0% 0%;
+    background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 0.12) 100%);
+    opacity: 0.5;
+    z-index: 20;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+
+  .modal-content > * {
+    position: relative;
+    z-index: 25;
+  }
+
+
+  /* MODAL HEADER */
+
+  .modal-kind {
+    font-size: smaller;
+    font-weight: 600;
+    padding: 2px 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
+
+  .instagrameable {
+    background: #ffeaf1;
+    color: #b91c1c;
+  }
+
+  .modal-title {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: #f3f4f6;
+    margin-bottom: 8px;
+  }
+
+  .modal-direction {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #cccccc
+  }
+
+/* CURIOSITY CARD */
+
+  .modal-curiosity {
+    border-left: 4px solid #3b82f6;
+    background-color: #eef4fe;
+    color: #1e2936;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+  }
+
+</style>
+
