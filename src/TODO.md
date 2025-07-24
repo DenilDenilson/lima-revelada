@@ -6,6 +6,7 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ## 🔧 Funcionalidades por implementar
 
+- [ ] Diseñar pin para mi ubicación actual
 - [ ] Diseñar modal para Arquitectura y Espacios Singulares
 - [ ] Carrusel en sección de instagrameables
 
@@ -27,9 +28,6 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 🏢 Arquitectura y Espacios Singulares
 
-- [ ] Balcón más largo del Perú (https://vm.tiktok.com/ZMSGDtLBv/)
-- [ ] Casa Fernandini - casa lujosa con 1er asensor del peru
-- [ ] Bar La Catedral de Mario Vargas Llosa
 - [ ] La réplica del palacio de gobierno, casa Suarez
 - [ ] Parque Hernán Velarde, un viaje al pasado
 - [ ] Espacio silencioso en plena av Abancay (https://www.tiktok.com/@daveklux/video/7484344044450073861?_r=1&_t=ZM-8y2Yxrn8VRF)
@@ -48,13 +46,12 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 📸 Instagrameables
 
-- [ ] El arco chino
-- [ ] Leones fu
 - [ ] Arco de la amistad de Lima
 - [ ] Monumento de Campo de Marte
 - [ ] Cristo del Pacífico
 - [ ] Bajada de Baños
 - [ ] Parque de la reserva / Circuito Mágico del Agua
+- [ ] Casa Fernandini - casa lujosa con 1er asensor del peru
 - [ ] Escalera de colores en Barranco
 - [ ] Escultura del parque del amor
 - [ ] Faro de Miraflores
@@ -62,8 +59,6 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 🔍 Curiosidades Ocultas
 
-- [ ] Cúpula acústica (https://vm.tiktok.com/ZMSGD4soY/)
-- [ ] 1era escalera electrica del Perú en Jirón de la Unión
 - [ ] Cruz de madera sobre la ejecución de un peruano por 5
 - [ ] Nicho en la casa de la gastronomía
 - [ ] Cuarto de Victor Humareda, Hotel Lima en Gamarra
