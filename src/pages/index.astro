@@ -114,14 +114,22 @@ const instagrameableSitesCoordinates = allInstagrameableSites.map(site => getCoo
 	const instagrameableData = JSON.parse(instagrameableDataDOM?.dataset.sites ?? '[]');
 	const espacioSingularData = JSON.parse(espacioSingularDataDOM?.dataset.sites ?? '[]');
 
+	// const modalFromPath = window.location.pathname.split('/').pop();
+	const id = new URLSearchParams(window.location.search).get('id');
+	if (id) {
+		const modal = document.getElementById(`modal-${id}`);
+		if (modal) {
+			modal.classList.remove('hidden');
+		}
+	}
 
-	paranormalData.forEach((site: any) => {
-		
+	paranormalData.forEach((site: any) => {		
 		// @ts-ignore
 		const marker = L.marker(site.coordinates, {icon: paranormalIcon})
-		 .addTo(map)
-
+		.addTo(map)
+		
 		marker.on('click', () => {
+				history.pushState({}, '', `?id=${site.id}`);
 				const modal = document.getElementById(`modal-${site.id}`);
 				if (modal) {
 					modal.classList.remove('hidden');
@@ -136,6 +144,7 @@ const instagrameableSitesCoordinates = allInstagrameableSites.map(site => getCoo
 		 .addTo(map)
 
 		marker.on('click', () => {
+				history.pushState({}, '', `?id=${site.id}`);
 				const modal = document.getElementById(`modal-${site.id}`);
 				if (modal) {
 					modal.classList.remove('hidden');
@@ -150,6 +159,7 @@ const instagrameableSitesCoordinates = allInstagrameableSites.map(site => getCoo
 		 .addTo(map)
 
 		marker.on('click', () => {
+				history.pushState({}, '', `?id=${site.id}`);
 				const modal = document.getElementById(`modal-${site.id}`);
 				if (modal) {
 					modal.classList.remove('hidden');
@@ -164,6 +174,7 @@ const instagrameableSitesCoordinates = allInstagrameableSites.map(site => getCoo
 		 .addTo(map)
 
 		marker.on('click', () => {
+				history.pushState({}, '', `?id=${site.id}`);
 				const modal = document.getElementById(`modal-${site.id}`);
 				if (modal) {
 					modal.classList.remove('hidden');
@@ -175,15 +186,16 @@ const instagrameableSitesCoordinates = allInstagrameableSites.map(site => getCoo
 		modal.addEventListener('click', (e) => {
 			// Cierra solo si se hace click fuera del contenido
 			if ((e.target as Element).className === 'container') {
-				console.log('Modal closed');
 				modal.classList.add('hidden');
+				history.pushState(null, '', '/');
 			}
 		});
 		
 		modal.addEventListener('click', (e) => {
 			const target = e.target as Element;
-
+			
 			if (target.id === 'close-icon' || target.closest('#close-icon')) {
+				history.pushState(null, '', '/');
 				modal.classList.add('hidden');
 			}
 		})
