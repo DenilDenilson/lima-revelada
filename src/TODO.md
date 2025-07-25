@@ -18,7 +18,6 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 👻 Paranormales
 
-- [ ] Procesación de Animas de San Agustín
 - [ ] Mujer Vampiro de Barranco
 - [ ] Puente de suicidas en Miraflores
 - [ ] Mujer Lobo de Chorrillos
@@ -28,10 +27,10 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 🏢 Arquitectura y Espacios Singulares
 
-- [ ] La réplica del palacio de gobierno, casa Suarez
-- [ ] Parque Hernán Velarde, un viaje al pasado
-- [ ] Espacio silencioso en plena av Abancay (https://www.tiktok.com/@daveklux/video/7484344044450073861?_r=1&_t=ZM-8y2Yxrn8VRF)
-- [ ] La iglesia más pequeña del mundo
+- [ ] La réplica del palacio de gobierno, casa Suarez - 🔥
+- [ ] Parque Hernán Velarde, un viaje al pasado - 🔥
+- [ ] Espacio silencioso en plena av Abancay (https://www.tiktok.com/@daveklux/video/7484344044450073861?_r=1&_t=ZM-8y2Yxrn8VRF) - 🔥
+- [ ] La iglesia más pequeña del mundo - 🔥
 - [ ] La Iglesia más alta de Lima
 - [ ] Balcón abierto más largo de latam (https://vm.tiktok.com/ZMSGDGMHM/)
 - [ ] Base de la FAP que parece la casa de Hansel y Gretel
@@ -46,12 +45,11 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 📸 Instagrameables
 
+- [ ] Casa Fernandini - casa lujosa con 1er asensor del peru - 🔥
+- [ ] Monumento de Campo de Marte - 🔥
 - [ ] Arco de la amistad de Lima
-- [ ] Monumento de Campo de Marte
 - [ ] Cristo del Pacífico
 - [ ] Bajada de Baños
-- [ ] Parque de la reserva / Circuito Mágico del Agua
-- [ ] Casa Fernandini - casa lujosa con 1er asensor del peru
 - [ ] Escalera de colores en Barranco
 - [ ] Escultura del parque del amor
 - [ ] Faro de Miraflores
@@ -59,8 +57,8 @@ Este archivo lista las tareas pendientes del proyecto, mejoras futuras y bugs de
 
 ### 🔍 Curiosidades Ocultas
 
-- [ ] Cruz de madera sobre la ejecución de un peruano por 5
-- [ ] Nicho en la casa de la gastronomía
+- [ ] Cruz de madera sobre la ejecución de un peruano por 5 - 🔥
+- [ ] Nicho en la casa de la gastronomía - 🔥
 - [ ] Cuarto de Victor Humareda, Hotel Lima en Gamarra
 - [ ] Puente de los suspiros
 - [ ] Lugar donde dio misa Juan Pablo II
